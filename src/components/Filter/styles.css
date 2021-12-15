@@ -1,0 +1,154 @@
+.container-filters {
+  margin-bottom: 50px;
+  width: 950px;
+}
+
+.btn-filter {
+  border: none;
+  height: 40px;
+  padding: 8px 16px;
+  background: #fafafa;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.content-filters {
+  margin-top: 16px;
+  background: #fafafa;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  height: 220px;
+  display: flex;
+}
+
+.items-filter {
+  width: 220px;
+  padding: 32px;
+}
+
+.items-filter strong {
+  color: #b9b9b9;
+  font-weight: 500px;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+}
+
+.separator {
+  border-right: 1px solid #d1d1d1;
+  height: auto;
+  margin: 20px 0px;
+}
+
+.container-action-buttons {
+  display: flex;
+  align-items: flex-end;
+  margin: 0px 18px 18px 0px;
+}
+
+.btn-clear-filters {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  color: #000000;
+  border: none;
+  height: 40px;
+  padding: 8px;
+  background: #fafafa;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 98px;
+  margin-right: 16px;
+}
+
+.btn-apply-filters {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  border: none;
+  height: 40px;
+  padding: 8px;
+  width: 98px;
+  background: linear-gradient(264.83deg, #3a9ff1 -3.28%, #05ede3 100%);
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  color: white;
+}
+
+.container-chip {
+  background: #fafafa;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  height: 20px;
+  width: 90px;
+}
+
+.container-chip:hover {
+  opacity: 0.8;
+}
+
+.container-chip span {
+  font-family: "Rubik";
+  font-size: 12px;
+  margin-left: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.icon-chip {
+  margin-right: 8px;
+  width: 8px;
+  height: 8px;
+}
+
+.selected-chip {
+  background-color: #7b61ff;
+  color: #ffffff;
+}
+
+.container-chips {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 80%;
+  margin-top: 18px;
+}
+
+.container-input-filter {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-input-filter label {
+  font-family: "Rubik", sans-serif;
+  font-size: 9px;
+  color: #484848;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+
+.container-input-filter:first-of-type {
+  margin-top: 18px;
+}
+
+.container-input-filter:last-of-type {
+  margin-top: 12px;
+}
+
+.container-input-filter input {
+  background: #ffffff;
+  border: 1px solid #7b61ff;
+  box-sizing: border-box;
+  padding: 15px 4px;
+  font-size: 12px;
+  border-radius: 2px;
+  height: 22px;
+  width: 80px;
+}

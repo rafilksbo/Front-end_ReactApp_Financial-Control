@@ -1,0 +1,23 @@
+@import url('./utils.css');
+@import url('./modal.css');
+
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+button{
+    cursor: pointer;
+    font-family: 'Rubik';
+}
+
+input{
+    height: 50px;
+    background-color: #FFFFFF;
+    border:1px solid #555555;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
